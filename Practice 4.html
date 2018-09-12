@@ -7,9 +7,20 @@
 	<h1>Login</h1>
 	<!-- Action - where the form send data to -->
 	<!-- Method - what HTTP method used (get/post) -->
-	<form action="http://wikipedia.org" method="GET"> 
-	<input name="username" type="text" placeholder="Username">
-	<input name="password" type="password" placeholder="Password">
+	<!-- <form action="http://wikipedia.org" method="GET">
+		<label>Username:<input name="username" type="text" placeholder="Username"></label>
+	<label>Password:<input name="password" type="password" placeholder="Password"></label>
+	
+	<input type="Submit">
+	</form> -->
+
+	<form action="http://wikipedia.org" method="get">
+
+	<label for="Email">Email:</label>
+	<input id="email" name="email" type="email" placeholder="Email" required>
+	<label for="password">Password:</label>
+	<input id="password" name="password" type="password" placeholder="Password" required>
+	
 	<input type="Submit">
 	</form>
 </body>
