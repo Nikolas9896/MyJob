@@ -12,17 +12,17 @@
 <input placeholder="John" id="lastname" type="text" name="lastname" required></p>
 <p>
 <label for="mala">Male</label>
-<input id="male" type="radio" name="SexChoice" value="male">
+<input id="male" type="radio" name="gender" value="male">
 <label for="female">Female</label>
-<input id="female" type="radio" name="SexChoice" value="female">
+<input id="female" type="radio" name="gender" value="female">
 <label for="Other">Other</label>
-<input id="Other" type="radio" name="SexChoice" value="other">
+<input id="Other" type="radio" name="gender" value="other">
 </p>
 <p>
 	<label for="email">Email</label>
 	<input id="email" type="email" name="email" placeholder="Email" required>
 	<label for="password">Password</label>
-	<input id="password" type="password" name="password" placeholder="Password" minlength="5" maxlength="10" required>
+	<input id="password" type="password" name="password" placeholder="Password" pattern=".{5,10}" required title="5 to 10 characters">
 </p>
 <p>
 <label id="birthday">Birthday:</label>
