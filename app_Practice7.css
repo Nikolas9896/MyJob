@@ -3,21 +3,23 @@ h1	{
 }
 
 h3{
-	color: rgb(0,244,12);
+	color: rgb(255,244,232);
 }
 
 h4 {
-	background: #00FF23;
+	background: #AAAAAA;
 	color: #7B68EE;
 }
 h5	{
-	color: rgba(12, 94, 140, .4);
+	color: rgba(12, 233, 233, .7);
 }
 
 li	{
-	color: #1E90FF;
+	color: #FFAAFF;
 }
 
 body	{
-	background: pink;
+	background: url(https://image.freepik.com/free-vector/wooden-texture_23-2147511826.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
