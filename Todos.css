@@ -1,3 +1,9 @@
 body	{
 	background: orange;
 }
+li	{
+	border: 1px solid red;
+}
+#special	{
+	color: yellow;
+}
