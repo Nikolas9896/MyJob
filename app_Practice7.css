@@ -1,5 +1,6 @@
 h1	{
 	color: #6495ED;
+	background: gray;
 	border-color: blue;
 	border-width: 3px;
 	border-style: solid;
@@ -24,8 +25,8 @@ li	{
 }
 
 body	{
-	background: #AAAAF0
-	/*background: url(https://image.freepik.com/free-vector/wooden-texture_23-2147511826.jpg);
+	/*background: #AAAAF0*/
+	background: url(https://image.freepik.com/free-vector/wooden-texture_23-2147511826.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;*/
+	background-size: cover;
 }
