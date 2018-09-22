@@ -1,9 +1,9 @@
 /*font-family*/
 p	{
-	font-family: Arial;
+	font-family: Lato;
 }
 h1	{
-	font-family: Georgia;
+	font-family: Open Sans;
 }
 /*font-size*/
 body {
@@ -20,7 +20,7 @@ span	{
 	font-size: 2.0em;
 }
 /*font-weight*/
-p	{
+span	{
 	font-weight: bold;
 }
 /*line-height*/
